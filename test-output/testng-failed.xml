@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Suite]">
+  <listeners>
+    <listener class-name="net.sf.testng.databinding.TestAnnotationTransformer"/>
+  </listeners>
+  <test name="Title Validation">
+    <classes>
+      <class name="core.DBTest"/>
+    </classes>
+  </test> <!-- Title Validation -->
+  <test name="Title Validation(failed)">
+    <classes>
+      <class name="core.DBTest">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="browserQuit"/>
+          <include name="titleValidation" invocation-numbers="2 4 6 8 10 12 14 16 18"/>
+        </methods>
+      </class> <!-- core.DBTest -->
+    </classes>
+  </test> <!-- Title Validation(failed) -->
+</suite> <!-- Failed suite [TestNG Suite] -->

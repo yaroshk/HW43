@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestNG_Suite">
+              <span class="suite-name border-failed">TestNG Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestNG_Suite">
+                    <span>C:\Users\yarosh.k\Workspace\HW43\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestNG_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestNG_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestNG_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestNG_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestNG_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestNG_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 9 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestNG_Suite" class="hide-methods failed suite-TestNG_Suite"> (hide)</a> <!-- hide-methods failed suite-TestNG_Suite -->
+                      <a href="#" panel-name="suite-TestNG_Suite" class="show-methods failed suite-TestNG_Suite"> (show)</a> <!-- show-methods failed suite-TestNG_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestNG_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.07, http://www.w3schools.com, W3Schools Online Web Tutorial )">titleValidation(TC-001.07, http://www.w3schools.com, W3Schools Online Web Tutorial )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.15, http://stackoverflow.com/, Stack Overflo)">titleValidation(TC-001.15, http://stackoverflow.com/, Stack Overflo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.03, http://www.alegro.net, www.alegro.net)">titleValidation(TC-001.03, http://www.alegro.net, www.alegro.net)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.09, https://www.google.com/, Google1)">titleValidation(TC-001.09, https://www.google.com/, Google1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.17, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Tes)">titleValidation(TC-001.17, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Tes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.13, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.co)">titleValidation(TC-001.13, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.co)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.19, https://www.copart.com/, Copart USA - Leader in Online Salvage &amp; Insurance Auto Auction)">titleValidation(TC-001.19, https://www.copart.com/, Copart USA - Leader in Online Salvage & Insurance Auto Auction)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.11, https://www.yahoo.com/, Yaho)">titleValidation(TC-001.11, https://www.yahoo.com/, Yaho)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.05, http://www.ebay.com, Electronics)">titleValidation(TC-001.05, http://www.ebay.com, Electronics)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestNG_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNG_Suite" class="hide-methods passed suite-TestNG_Suite"> (hide)</a> <!-- hide-methods passed suite-TestNG_Suite -->
+                      <a href="#" panel-name="suite-TestNG_Suite" class="show-methods passed suite-TestNG_Suite"> (show)</a> <!-- show-methods passed suite-TestNG_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNG_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.16, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Test)">titleValidation(TC-001.16, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.02, http://www.alegro.com, www.alegro.com)">titleValidation(TC-001.02, http://www.alegro.com, www.alegro.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.01, http://www.learn2test.net, learn2test.net)">titleValidation(TC-001.01, http://www.learn2test.net, learn2test.net)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.06, http://www.w3schools.com, W3Schools Online Web Tutorials)">titleValidation(TC-001.06, http://www.w3schools.com, W3Schools Online Web Tutorials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.04, http://www.learn2test.net, learn2test.net)">titleValidation(TC-001.04, http://www.learn2test.net, learn2test.net)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.14, http://stackoverflow.com/, Stack Overflow)">titleValidation(TC-001.14, http://stackoverflow.com/, Stack Overflow)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.12, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.com)">titleValidation(TC-001.12, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.08, https://www.google.com/, Google)">titleValidation(TC-001.08, https://www.google.com/, Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.18, https://www.copart.com/, Copart USA - Leader in Online Salvage &amp; Insurance Auto Auctions)">titleValidation(TC-001.18, https://www.copart.com/, Copart USA - Leader in Online Salvage & Insurance Auto Auctions)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Suite" title="core.DBTest" hash-for-method="titleValidation(TC-001.10, https://www.yahoo.com/, Yahoo)">titleValidation(TC-001.10, https://www.yahoo.com/, Yahoo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNG_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNG_Suite" class="panel TestNG_Suite">
+          <div class="suite-TestNG_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">core.DBTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.07, http://www.w3schools.com, W3Schools Online Web Tutorial )">
+                  </a> <!-- titleValidation(TC-001.07, http://www.w3schools.com, W3Schools Online Web Tutorial ) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.07, http://www.w3schools.com, W3Schools Online Web Tutorial )</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;W3Schools Online Web Tutorial &quot;
+     but: was &quot;W3Schools Online Web Tutorials&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.15, http://stackoverflow.com/, Stack Overflo)">
+                  </a> <!-- titleValidation(TC-001.15, http://stackoverflow.com/, Stack Overflo) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.15, http://stackoverflow.com/, Stack Overflo)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;Stack Overflo&quot;
+     but: was &quot;Stack Overflow&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.03, http://www.alegro.net, www.alegro.net)">
+                  </a> <!-- titleValidation(TC-001.03, http://www.alegro.net, www.alegro.net) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.03, http://www.alegro.net, www.alegro.net)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;www.alegro.net&quot;
+     but: was &quot;&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.09, https://www.google.com/, Google1)">
+                  </a> <!-- titleValidation(TC-001.09, https://www.google.com/, Google1) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.09, https://www.google.com/, Google1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;Google1&quot;
+     but: was &quot;Google&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.17, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Tes)">
+                  </a> <!-- titleValidation(TC-001.17, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Tes) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.17, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Tes)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;Speedtest.net by Ookla - The Global Broadband Speed Tes&quot;
+     but: was &quot;Speedtest.net by Ookla - The Global Broadband Speed Test&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.13, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.co)">
+                  </a> <!-- titleValidation(TC-001.13, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.co) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.13, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.co)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;Kirkwood Mountain | Rare Earth | kirkwood.co&quot;
+     but: was &quot;Kirkwood Mountain | Rare Earth | kirkwood.com&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.19, https://www.copart.com/, Copart USA - Leader in Online Salvage &amp; Insurance Auto Auction)">
+                  </a> <!-- titleValidation(TC-001.19, https://www.copart.com/, Copart USA - Leader in Online Salvage & Insurance Auto Auction) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.19, https://www.copart.com/, Copart USA - Leader in Online Salvage & Insurance Auto Auction)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;Copart USA - Leader in Online Salvage &amp; Insurance Auto Auction&quot;
+     but: was &quot;Copart USA - Leader in Online Salvage &amp; Insurance Auto Auctions&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.11, https://www.yahoo.com/, Yaho)">
+                  </a> <!-- titleValidation(TC-001.11, https://www.yahoo.com/, Yaho) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.11, https://www.yahoo.com/, Yaho)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;Yaho&quot;
+     but: was &quot;Yahoo&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.05, http://www.ebay.com, Electronics)">
+                  </a> <!-- titleValidation(TC-001.05, http://www.ebay.com, Electronics) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.05, http://www.ebay.com, Electronics)</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: is &quot;Electronics&quot;
+     but: was &quot;Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.DBTest.titleValidation(DBTest.java:35)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Suite-class-failed -->
+          <div class="suite-TestNG_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">core.DBTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.16, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Test)">
+                  </a> <!-- titleValidation(TC-001.16, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Test) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.16, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Test)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.02, http://www.alegro.com, www.alegro.com)">
+                  </a> <!-- titleValidation(TC-001.02, http://www.alegro.com, www.alegro.com) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.02, http://www.alegro.com, www.alegro.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.01, http://www.learn2test.net, learn2test.net)">
+                  </a> <!-- titleValidation(TC-001.01, http://www.learn2test.net, learn2test.net) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.01, http://www.learn2test.net, learn2test.net)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.06, http://www.w3schools.com, W3Schools Online Web Tutorials)">
+                  </a> <!-- titleValidation(TC-001.06, http://www.w3schools.com, W3Schools Online Web Tutorials) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.06, http://www.w3schools.com, W3Schools Online Web Tutorials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.04, http://www.learn2test.net, learn2test.net)">
+                  </a> <!-- titleValidation(TC-001.04, http://www.learn2test.net, learn2test.net) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.04, http://www.learn2test.net, learn2test.net)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.14, http://stackoverflow.com/, Stack Overflow)">
+                  </a> <!-- titleValidation(TC-001.14, http://stackoverflow.com/, Stack Overflow) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.14, http://stackoverflow.com/, Stack Overflow)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.12, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.com)">
+                  </a> <!-- titleValidation(TC-001.12, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.com) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.12, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.08, https://www.google.com/, Google)">
+                  </a> <!-- titleValidation(TC-001.08, https://www.google.com/, Google) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.08, https://www.google.com/, Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.18, https://www.copart.com/, Copart USA - Leader in Online Salvage &amp; Insurance Auto Auctions)">
+                  </a> <!-- titleValidation(TC-001.18, https://www.copart.com/, Copart USA - Leader in Online Salvage & Insurance Auto Auctions) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.18, https://www.copart.com/, Copart USA - Leader in Online Salvage & Insurance Auto Auctions)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation(TC-001.10, https://www.yahoo.com/, Yahoo)">
+                  </a> <!-- titleValidation(TC-001.10, https://www.yahoo.com/, Yahoo) -->
+                  <span class="method-name">titleValidation</span>
+                  <span class="parameters">(TC-001.10, https://www.yahoo.com/, Yahoo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Suite-class-passed -->
+        </div> <!-- panel TestNG_Suite -->
+        <div panel-name="test-xml-TestNG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\yarosh.k\Workspace\HW43\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestNG Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;net.sf.testng.databinding.TestAnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Title Validation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;core.DBTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Title Validation --&gt;
+  &lt;test name=&quot;Title Validation(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;core.DBTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;browserOpen&quot;/&gt;
+          &lt;include name=&quot;browserQuit&quot;/&gt;
+          &lt;include name=&quot;titleValidation&quot; invocation-numbers=&quot;2 4 6 8 10 12 14 16 18&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- core.DBTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Title Validation(failed) --&gt;
+&lt;/suite&gt; &lt;!-- TestNG Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNG Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Title Validation (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Title Validation(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNG Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNG Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNG_Suite');
+function tableData_TestNG_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'titleValidation')
+data.setCell(0, 2, 'core.DBTest')
+data.setCell(0, 3, 12364);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'titleValidation')
+data.setCell(1, 2, 'core.DBTest')
+data.setCell(1, 3, 11319);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'titleValidation')
+data.setCell(2, 2, 'core.DBTest')
+data.setCell(2, 3, 9164);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'titleValidation')
+data.setCell(3, 2, 'core.DBTest')
+data.setCell(3, 3, 7401);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'titleValidation')
+data.setCell(4, 2, 'core.DBTest')
+data.setCell(4, 3, 3984);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'titleValidation')
+data.setCell(5, 2, 'core.DBTest')
+data.setCell(5, 3, 3391);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'titleValidation')
+data.setCell(6, 2, 'core.DBTest')
+data.setCell(6, 3, 3134);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'titleValidation')
+data.setCell(7, 2, 'core.DBTest')
+data.setCell(7, 3, 2994);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'titleValidation')
+data.setCell(8, 2, 'core.DBTest')
+data.setCell(8, 3, 2542);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'titleValidation')
+data.setCell(9, 2, 'core.DBTest')
+data.setCell(9, 3, 2243);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'titleValidation')
+data.setCell(10, 2, 'core.DBTest')
+data.setCell(10, 3, 1679);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'titleValidation')
+data.setCell(11, 2, 'core.DBTest')
+data.setCell(11, 3, 1254);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'titleValidation')
+data.setCell(12, 2, 'core.DBTest')
+data.setCell(12, 3, 1233);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'titleValidation')
+data.setCell(13, 2, 'core.DBTest')
+data.setCell(13, 3, 1157);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'titleValidation')
+data.setCell(14, 2, 'core.DBTest')
+data.setCell(14, 3, 1060);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'titleValidation')
+data.setCell(15, 2, 'core.DBTest')
+data.setCell(15, 3, 945);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'titleValidation')
+data.setCell(16, 2, 'core.DBTest')
+data.setCell(16, 3, 893);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'titleValidation')
+data.setCell(17, 2, 'core.DBTest')
+data.setCell(17, 3, 757);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'titleValidation')
+data.setCell(18, 2, 'core.DBTest')
+data.setCell(18, 3, 322);
+window.suiteTableData['TestNG_Suite']= { tableData: data, tableDiv: 'times-div-TestNG_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-TestNG_Suite">
+              </div> <!-- times-div-TestNG_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNG Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNG_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">core.DBTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserOpen</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.01, http://www.learn2test.net, learn2test.net)</span>
+                <span class="method-start">7667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.02, http://www.alegro.com, www.alegro.com)</span>
+                <span class="method-start">8930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.03, http://www.alegro.net, www.alegro.net)</span>
+                <span class="method-start">9878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.04, http://www.learn2test.net, learn2test.net)</span>
+                <span class="method-start">10639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.05, http://www.ebay.com, Electronics)</span>
+                <span class="method-start">10964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.06, http://www.w3schools.com, W3Schools Online Web Tutorials)</span>
+                <span class="method-start">14357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.07, http://www.w3schools.com, W3Schools Online Web Tutorial )</span>
+                <span class="method-start">16038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.08, https://www.google.com/, Google)</span>
+                <span class="method-start">17197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.09, https://www.google.com/, Google1)</span>
+                <span class="method-start">18453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.10, https://www.yahoo.com/, Yahoo)</span>
+                <span class="method-start">19516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.11, https://www.yahoo.com/, Yaho)</span>
+                <span class="method-start">26919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.12, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.com)</span>
+                <span class="method-start">39285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.13, http://www.kirkwood.com/, Kirkwood Mountain | Rare Earth | kirkwood.co)</span>
+                <span class="method-start">42281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.14, http://stackoverflow.com/, Stack Overflow)</span>
+                <span class="method-start">44825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.15, http://stackoverflow.com/, Stack Overflo)</span>
+                <span class="method-start">47070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.16, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Test)</span>
+                <span class="method-start">47965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.17, http://www.speedtest.net/, Speedtest.net by Ookla - The Global Broadband Speed Tes)</span>
+                <span class="method-start">59286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleValidation(TC-001.18, https://www.copart.com/, Copart USA - Leader in Online Salvage & Insurance Auto Auctions)</span>
+                <span class="method-start">68453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">titleValidation(TC-001.19, https://www.copart.com/, Copart USA - Leader in Online Salvage & Insurance Auto Auction)</span>
+                <span class="method-start">72439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserQuit</span>
+                <span class="method-start">75576 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="74.887" tests="19" errors="0" skipped="0" failures="10">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\bin"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\yarosh.k\Workspace\HW43"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\yarosh.k\Workspace\HW43"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\yarosh.k\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_80\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Maven\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\System32;C:\WINDOWS\System32;C:\Windows;C:\Program Files (x86)\Skype\Phone\;C:\Windows\System32;C:\Windows;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\yarosh.k"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="yarosh.k"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_80\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher site"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_80\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="titleValidation" classname="core.DBTest" time="0.813"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="0.746"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="0.706">
+    <failure message="&#10;Expected: is &quot;www.alegro.net&quot;&#10;     but: was &quot;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "www.alegro.net"
+     but: was ""
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="5.107">
+    <failure message="&#10;Expected: is &quot;learn2test.net&quot;&#10;     but: was &quot;Back Pain Management Guide | Everyday Health&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "learn2test.net"
+     but: was "Back Pain Management Guide | Everyday Health"
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="3.189">
+    <failure message="&#10;Expected: is &quot;Electronics&quot;&#10;     but: was &quot;Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "Electronics"
+     but: was "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay"
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="1.598"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="1.054">
+    <failure message="&#10;Expected: is &quot;W3Schools Online Web Tutorial &quot;&#10;     but: was &quot;W3Schools Online Web Tutorials&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "W3Schools Online Web Tutorial "
+     but: was "W3Schools Online Web Tutorials"
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="1.437"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="1.213">
+    <failure message="&#10;Expected: is &quot;Google1&quot;&#10;     but: was &quot;Google&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "Google1"
+     but: was "Google"
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="7.098"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="11.579">
+    <failure message="&#10;Expected: is &quot;Yaho&quot;&#10;     but: was &quot;Yahoo&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "Yaho"
+     but: was "Yahoo"
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="2.802"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="1.372">
+    <failure message="&#10;Expected: is &quot;Kirkwood Mountain | Rare Earth | kirkwood.co&quot;&#10;     but: was &quot;Kirkwood Mountain | Rare Earth | kirkwood.com&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "Kirkwood Mountain | Rare Earth | kirkwood.co"
+     but: was "Kirkwood Mountain | Rare Earth | kirkwood.com"
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="1.967"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="0.725">
+    <failure message="&#10;Expected: is &quot;Stack Overflo&quot;&#10;     but: was &quot;Stack Overflow&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "Stack Overflo"
+     but: was "Stack Overflow"
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="7.694"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="8.783">
+    <failure message="&#10;Expected: is &quot;Speedtest.net by Ookla - The Global Broadband Speed Tes&quot;&#10;     but: was &quot;Speedtest.net by Ookla - The Global Broadband Speed Test&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: is "Speedtest.net by Ookla - The Global Broadband Speed Tes"
+     but: was "Speedtest.net by Ookla - The Global Broadband Speed Test"
+	at core.DBTest.titleValidation(DBTest.java:35)
+</failure>
+  </testcase>
+  <testcase name="titleValidation" classname="core.DBTest" time="3.827"/>
+  <testcase name="titleValidation" classname="core.DBTest" time="2.862">
+    <failure message="&#10;Expected: is &quot;Copart USA - Leader in Online Salvage &amp; Insurance Auto Auction&quot;&#10;     but: was &quot;Copart USA - Leader in Online Salvage &amp; Insurance Auto Auctions&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: is "Copart USA - Leader in Online Salvage & Insurance Auto Auction"
+     but: was "Copart USA - Leader in Online Salvage & Insurance Auto Auctions"
+	at core.DBTest.titleValidation(DBTest.java:35)
+]]></failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 74.887 sec <<< FAILURE! - in TestSuite
+titleValidation(core.DBTest)  Time elapsed: 0.706 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "www.alegro.net"
+     but: was ""
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 5.107 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "learn2test.net"
+     but: was "Back Pain Management Guide | Everyday Health"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 3.189 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "Electronics"
+     but: was "Electronics, Cars, Fashion, Collectibles, Coupons and More | eBay"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 1.054 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "W3Schools Online Web Tutorial "
+     but: was "W3Schools Online Web Tutorials"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 1.213 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "Google1"
+     but: was "Google"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 11.579 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "Yaho"
+     but: was "Yahoo"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 1.372 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "Kirkwood Mountain | Rare Earth | kirkwood.co"
+     but: was "Kirkwood Mountain | Rare Earth | kirkwood.com"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 0.725 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "Stack Overflo"
+     but: was "Stack Overflow"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 8.783 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "Speedtest.net by Ookla - The Global Broadband Speed Tes"
+     but: was "Speedtest.net by Ookla - The Global Broadband Speed Test"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
+titleValidation(core.DBTest)  Time elapsed: 2.862 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "Copart USA - Leader in Online Salvage & Insurance Auto Auction"
+     but: was "Copart USA - Leader in Online Salvage & Insurance Auto Auctions"
+	at core.DBTest.titleValidation(DBTest.java:35)
+
